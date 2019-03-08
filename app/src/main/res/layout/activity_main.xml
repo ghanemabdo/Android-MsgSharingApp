@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity"
-        android:padding="10dp">
+        android:padding="10dp" android:id="@+id/relativeLayout">
     <Button
             android:text="Show Toast"
             android:layout_width="wrap_content"
@@ -25,11 +25,27 @@
             android:ems="10"
             android:id="@+id/etUserMessage"/>
     <Button
-            android:text="Button"
+            android:text="send to next activity"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="200dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/btnSendMsgToNextActivity"/>
+    <Button
+            android:text="Share to other Apps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:id="@+id/btnShareToOtherApps"/>
+    <Button
+            android:text="Hobbies RecyclerView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="350dp"
+            android:id="@+id/btnHobbiesActivity"/>
 </RelativeLayout>

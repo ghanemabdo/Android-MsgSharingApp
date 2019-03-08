@@ -27,6 +27,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.abdu.msgsharingapp.SecondActivity" />
+        <activity android:name="com.abdu.msgsharingapp.HobbiesActivity" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
